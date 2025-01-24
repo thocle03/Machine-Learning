@@ -79,3 +79,6 @@ Ces données sont utilisées pour analyser la relation entre l'âge et le salair
 Ce projet démontre comment la régression linéaire peut être utilisée pour prédire les salaires en fonction de l'ancienneté dans un secteur spécifique. Les résultats obtenus permettent d'avoir une estimation des salaires pour des ancienneté non présents dans le dataset initial.
 
 ---
+
+### **Lien du dataset kaggle**
+https://www.kaggle.com/datasets/habedi/developer-salary-survey-data-norway-2024/data?select=salaries.csv
