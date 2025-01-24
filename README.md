@@ -43,8 +43,7 @@ Ces données sont utilisées pour analyser la relation entre l'âge et le salair
 
 #### **5.2. Visualisation et Analyse**
 1. **Distribution des données** :
-   - Histogramme de la variable `Ancienneté`.
-   - Distribution des salaires avec un boxplot.
+   - Histogramme de chaque variable.
 2. **Relation entre `Ancienneté` et `Salary`** :
    - Tracé d'un scatter plot pour visualiser la corrélation.
    - Vérification de la linéarité avec des tendances visuelles.
