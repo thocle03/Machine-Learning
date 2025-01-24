@@ -1,15 +1,15 @@
 ## **Documentation du Projet : Prédiction des Salaires des Développeurs en Norvège (2024)**
 
 ### **1. Introduction**
-Ce projet vise à prédire les **salaires des développeurs en Norvège en 2024** en fonction de leur **ancienneté** (âge). L'objectif est de construire un modèle de **régression linéaire** permettant d'identifier la relation entre l'âge d'un développeur et son salaire, puis de faire des prédictions sur de nouveaux âges.
+Ce projet vise à prédire les **salaires des développeurs en Norvège en 2024** en fonction de leur **ancienneté** (niveau d'ancienneté dans l'entreprise). L'objectif est de construire un modèle de **régression linéaire** permettant d'identifier la relation entre l'ancienneté d'un développeur et son salaire, puis de faire des prédictions sur de nouveaux niveau d'ancienneté.
 
 ---
 
 ### **2. Objectifs**
-1. **Analyser les données** disponibles sur les développeurs, incluant leur âge et leur salaire.
-2. Construire un **modèle de régression linéaire** pour établir une relation entre l'âge et le salaire.
+1. **Analyser les données** disponibles sur les développeurs, incluant leur ancienneté et leur salaire.
+2. Construire un **modèle de régression linéaire** pour établir une relation entre l'ancienneté et le salaire.
 3. **Évaluer les performances** du modèle à l'aide de métriques comme MAE, MSE et RMSE.
-4. Prédire les salaires pour de nouveaux âges fournis dans une cellule dédiée.
+4. Prédire les salaires pour de nouveaux niveau d'ancienneté fournis dans une cellule dédiée.
 
 ---
 
@@ -25,7 +25,7 @@ Ce projet vise à prédire les **salaires des développeurs en Norvège en 2024*
 
 ### **4. Description des Données**
 Le jeu de données contient deux colonnes principales :
-- **Age** : Âge des développeurs (en années).
+- **Ancienneté** : Ancienneté des développeurs (en années).
 - **Salary** : Salaire annuel brut des développeurs (en couronnes norvégiennes, NOK).
 
 Ces données sont utilisées pour analyser la relation entre l'âge et le salaire, et pour construire le modèle prédictif.
@@ -43,9 +43,9 @@ Ces données sont utilisées pour analyser la relation entre l'âge et le salair
 
 #### **5.2. Visualisation et Analyse**
 1. **Distribution des données** :
-   - Histogramme de la variable `Age`.
+   - Histogramme de la variable `Ancienneté`.
    - Distribution des salaires avec un boxplot.
-2. **Relation entre `Age` et `Salary`** :
+2. **Relation entre `Ancienneté` et `Salary`** :
    - Tracé d'un scatter plot pour visualiser la corrélation.
    - Vérification de la linéarité avec des tendances visuelles.
 
@@ -60,8 +60,8 @@ Ces données sont utilisées pour analyser la relation entre l'âge et le salair
    - Calcul des métriques : MAE, MSE, et RMSE.
    - Visualisation de la ligne de régression.
 
-#### **5.4. Prédiction pour de Nouveaux Âges**
-1. Ajout d'une cellule pour entrer une liste de nouveaux âges.
+#### **5.4. Prédiction pour de Nouveaux niveaux d'Ancienneté**
+1. Ajout d'une cellule pour entrer une liste de nouveaux niveau d'ancienneté.
 2. Utilisation du modèle pour prédire les salaires correspondants.
 3. Affichage des résultats.
 
@@ -72,11 +72,11 @@ Ces données sont utilisées pour analyser la relation entre l'âge et le salair
    - Valeurs des métriques calculées (MAE, MSE, RMSE).
    - Analyse des écarts entre les salaires réels et prédits.
 2. **Prédictions** :
-   - Tableau des prédictions pour les nouveaux âges fournis.
+   - Tableau des prédictions pour les nouveaux niveau d'ancienneté fournis.
 
 ---
 
 ### **7. Conclusion**
-Ce projet démontre comment la régression linéaire peut être utilisée pour prédire les salaires en fonction de l'âge dans un secteur spécifique. Les résultats obtenus permettent d'avoir une estimation des salaires pour des âges non présents dans le dataset initial.
+Ce projet démontre comment la régression linéaire peut être utilisée pour prédire les salaires en fonction de l'ancienneté dans un secteur spécifique. Les résultats obtenus permettent d'avoir une estimation des salaires pour des ancienneté non présents dans le dataset initial.
 
 ---
